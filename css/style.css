@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Reem+Kufi+Ink&display=swap');
+
+/* font-family: 'Bungee Spice', cursive;
+font-family: 'Reem Kufi Ink', sans-serif; */
+
+/* header/navbar */
+header{
+    background: linear-gradient(#FFABE1,#FFE6F7);
+    padding: 20px 0;
+    
+}
+.box{
+    position: relative;
+    width: 1400px;
+    margin: 0 auto;    
+}
+nav{
+    position: absolute;
+    top: 10px;
+    right: 0;
+    width: 1150px;
+    height: 180px;
+    
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 45px;
+
+}
+.titleName{
+    font-family: 'Reem Kufi Ink', sans-serif;
+    text-transform: uppercase;
+    color: #937DC2;
+    font-weight: bold;
+    font-size: 60px;
+    position: relative;
+    top: 70px;
+    width: 376px;
+    word-spacing: 10px;
+}
+.num{
+    font-family: 'Reem Kufi Ink', sans-serif;
+    text-transform: uppercase;
+    color: #937DC2;
+    font-weight: bold;
+    font-size: 90px;
+    position: relative;
+    left: 380px;
+    bottom: 25px;
+    width: 95px;
+}
+.titleVice{
+    font-family: 'Reem Kufi Ink', sans-serif;
+    text-transform: uppercase;
+    color: #937DC2;
+    font-weight: bold;
+    position: relative;
+    bottom: 35px;
+    left: 20px;
+    width: 300px;
+}
+nav a{
+    font-family: 'Reem Kufi Ink', sans-serif;
+    text-transform: uppercase;
+    color: #937DC2;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+    position: relative;
+    bottom: 100px;
+    left: 500px ;
+}
+nav a:hover{
+    color: #C689C6;
+    font-size: 25px;
+    text-decoration: underline;
+}
+.icon{
+    width: 200px;
+    height: 200px;
+    border-radius: 150px;
+}
+
+/* body */
+
+.test{
+    text-align: center;
+    margin-top: 100px;
+    text-decoration: underline;
+    
+}
